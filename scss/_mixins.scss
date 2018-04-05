@@ -1,0 +1,10 @@
+@mixin info{
+	display: block;
+	position:absolute;
+	top: 1em;
+	left: 1em;
+	height: 1.25em;
+	width: auto;
+	padding: .25em .5em;
+	border-radius: 5px;
+}

@@ -518,6 +518,44 @@ textarea {
   padding: 0.2em 0;
 }
 
+/*------------------------- basic sprite sheet,-----------------------------------*/
+/* ---------------------------animation sprite/sass------------------------ */
+/*  mix in from compass that makes verticle sprite sheet to 
+ horixontal sheet */
+header, nav, aside, footer, section, main {
+  position: relative;
+}
+header::after, nav::after, aside::after, footer::after, section::after, main::after {
+  display: block;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  height: 1.25em;
+  width: auto;
+  padding: .25em .5em;
+  border-radius: 5px;
+}
+
+header {
+  grid-area: name;
+}
+
+nav {
+  grid-area: navigation;
+}
+
+aside {
+  grid-area: next-to;
+}
+
+footer {
+  grid-area: footy;
+}
+
+main {
+  grid-area: content;
+}
+
 /*
  * Hide visually and from screen readers
  */
@@ -680,4 +718,18 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
+}
+body {
+  margin: 2%;
+}
+
+/* 
+
+---------------------------------grid----------------------------- */
+.site-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr .5fr 1fr 1fr 1fr;
+  grid-gap: 2%;
+  grid-template-areas: "name name" "navigation navigation" "content next-to" "content next-to" "footy footy";
 }

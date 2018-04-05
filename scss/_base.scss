@@ -15,4 +15,45 @@
 /*  mix in from compass that makes verticle sprite sheet to 
  horixontal sheet */
 
+header, nav, aside, footer, section, main{
+	position:relative;//for grid to work
+	
+	&::after{
+		@include info;
+	}//&::after
+
+}// header, nav aside etc
+
+
+
+
+
+header{
+	grid-area: name;
+
+}//header
+
+nav{
+	grid-area: navigation;
+}//nav
+
+aside{
+	grid-area: next-to;
+}//aside
+
+footer{
+	grid-area: footy;
+}//footer
+
+main{
+	grid-area: content;
+
+}//main
+
+
+
+
+
+
+
 
