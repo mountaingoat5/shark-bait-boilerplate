@@ -1,0 +1,232 @@
+/* 
+font-family: 'Plaster', cursive;
+font-family: 'Roboto', sans-serif; 
+*/
+.icon-sprite, .icon-dino-01, .icon-dino-02, .icon-dino-03, .icon-dino-04, .icon-dino-05, .icon-dino-06, .icon-dino-07, .icon-dino-08, .icon-dino-09, .icon-dino-11, .icon-dino-12, .icon-dino-13, .icon-dino-14, .icon-dino-15, .icon-dino-16, .icon-dino-17, .icon-dino-18, .icon-dino-19, .icon-dino-20, .icon-dino-21, .icon-dino-22, .icon-dino-23, .icon-dino-24, .icon-dino-25, .icon-dino-26, .icon-dino-27, .icon-dino-28, .icon-dino-29, .icon-dino-30, .icon-dino-31, .icon-dino-32, .icon-dino-33, .icon-dino-34, .icon-dino-35, .icon-dino-36, .icon-dino-37, .icon-dino-38, .icon-dino-39, .icon-dino-40, .icon-dino-41, .icon-dino-42, .icon-dino-43 {
+  background-image: url('../img/icon-s6196c53289.png');
+  background-repeat: no-repeat;
+}
+
+.icon-dino-01 {
+  background-position: 0 0;
+}
+
+.icon-dino-02 {
+  background-position: -800px 0;
+}
+
+.icon-dino-03 {
+  background-position: -1600px 0;
+}
+
+.icon-dino-04 {
+  background-position: -2400px 0;
+}
+
+.icon-dino-05 {
+  background-position: -3200px 0;
+}
+
+.icon-dino-06 {
+  background-position: -4000px 0;
+}
+
+.icon-dino-07 {
+  background-position: -4800px 0;
+}
+
+.icon-dino-08 {
+  background-position: -5600px 0;
+}
+
+.icon-dino-09 {
+  background-position: -6400px 0;
+}
+
+.icon-dino-11 {
+  background-position: -7200px 0;
+}
+
+.icon-dino-12 {
+  background-position: -8000px 0;
+}
+
+.icon-dino-13 {
+  background-position: -8800px 0;
+}
+
+.icon-dino-14 {
+  background-position: -9600px 0;
+}
+
+.icon-dino-15 {
+  background-position: -10400px 0;
+}
+
+.icon-dino-16 {
+  background-position: -11200px 0;
+}
+
+.icon-dino-17 {
+  background-position: -12000px 0;
+}
+
+.icon-dino-18 {
+  background-position: -12800px 0;
+}
+
+.icon-dino-19 {
+  background-position: -13600px 0;
+}
+
+.icon-dino-20 {
+  background-position: -14400px 0;
+}
+
+.icon-dino-21 {
+  background-position: -15200px 0;
+}
+
+.icon-dino-22 {
+  background-position: -16000px 0;
+}
+
+.icon-dino-23 {
+  background-position: -16800px 0;
+}
+
+.icon-dino-24 {
+  background-position: -17600px 0;
+}
+
+.icon-dino-25 {
+  background-position: -18400px 0;
+}
+
+.icon-dino-26 {
+  background-position: -19200px 0;
+}
+
+.icon-dino-27 {
+  background-position: -20000px 0;
+}
+
+.icon-dino-28 {
+  background-position: -20800px 0;
+}
+
+.icon-dino-29 {
+  background-position: -21600px 0;
+}
+
+.icon-dino-30 {
+  background-position: -22400px 0;
+}
+
+.icon-dino-31 {
+  background-position: -23200px 0;
+}
+
+.icon-dino-32 {
+  background-position: -24000px 0;
+}
+
+.icon-dino-33 {
+  background-position: -24800px 0;
+}
+
+.icon-dino-34 {
+  background-position: -25600px 0;
+}
+
+.icon-dino-35 {
+  background-position: -26400px 0;
+}
+
+.icon-dino-36 {
+  background-position: -27200px 0;
+}
+
+.icon-dino-37 {
+  background-position: -28000px 0;
+}
+
+.icon-dino-38 {
+  background-position: -28800px 0;
+}
+
+.icon-dino-39 {
+  background-position: -29600px 0;
+}
+
+.icon-dino-40 {
+  background-position: -30400px 0;
+}
+
+.icon-dino-41 {
+  background-position: -31200px 0;
+}
+
+.icon-dino-42 {
+  background-position: -32000px 0;
+}
+
+.icon-dino-43 {
+  background-position: -32800px 0;
+}
+
+.icon-animation {
+  width: 800px;
+  height: 530px;
+  background: url(../img/icon-s6196c53289.png);
+  animation: play 10s steps(43) infinite;
+}
+
+@keyframes play {
+  100% {
+    background-position: -34400px;
+  }
+}
+body {
+  text-align: center;
+  background-color: #98BA7F;
+  color: #4F1D00;
+}
+body a {
+  background-color: #98BA7F;
+}
+body h1 {
+  background-color: #FFCF0D;
+  margin-bottom: 0%;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 4%;
+  padding-bottom: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-family: 'Plaster', cursive;
+}
+body section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFCF0D;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-bottom: 10%;
+}
+body section p {
+  background-color: #FFCF0D;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  padding-left: 25%;
+  padding-right: 25%;
+  margin-top: 4%;
+  font-size: 125%;
+}
+body section footer {
+  background-color: #FFCF0D;
+  font-family: 'Plaster', cursive;
+}

@@ -536,26 +536,146 @@ header::after, nav::after, aside::after, footer::after, section::after, main::af
   border-radius: 5px;
 }
 
-header {
-  grid-area: name;
+body {
+  font-family: 'Expletus Sans', cursive;
+  background-image: url(../img/morphing-diamonds.svg);
 }
 
-nav {
-  grid-area: navigation;
+/* .table{
+	margin-right: 20%;
+	margin-left: 20%;
+} */
+a {
+  text-decoration: none;
 }
 
-aside {
-  grid-area: next-to;
+.top {
+  /* p */
+}
+.top h1 {
+  font-size: 400%;
+  text-align: center;
+  margin-bottom: -5%;
+}
+.top h2 {
+  font-size: 200%;
+  text-align: center;
+}
+.top p {
+  text-align: center;
+  background-color: #6C463B;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  border-radius: 3px;
+  /* a */
+  /* hover */
+}
+.top p a {
+  color: white;
+  padding: 3%;
+  border-radius: 3px;
+}
+.top p a:hover {
+  background-color: white;
+  color: #6C463B;
 }
 
-footer {
-  grid-area: footy;
+/* top */
+.bootons-main a {
+  background-color: #3D211E;
+  color: white;
+  border-radius: 3px;
+  font-size: 150%;
+  height: 150px;
+  width: 150px;
+  padding: 20px;
+  margin: 5%;
+  text-align: center;
+}
+.bootons-main a:hover {
+  background-color: white;
+  color: #3D211E;
 }
 
-main {
-  grid-area: content;
+/* .booton{
+	background-color: #3D211E;
+	color: white;
+	border-radius: 3px; 
+	font-size: 150%;
+	
+	height: 150px;
+	width: 150px;
+	padding: 20px;
+
+	margin: 5%;
+
+	text-align: center;
+
+	a{
+		color: white;
+		background-color: #3D211E;
+
+	}
+
+	 a:hover{
+		background-color: white;
+		color: #3D211E;
+	 }
+
+}
+ */
+/*
+h1{
+	text-align: center;
+	color: #3D211E; 
+	font-size: 400%;
+}
+h2{
+	text-align: center;
+	color: #3D211E; 
 }
 
+
+p>a{
+	text-align: center;
+	color: white;
+	font-size: 125%;
+	text-decoration:none;
+	background-color: #6C463B;
+	margin-bottom: 25px;
+
+}
+ 
+.booton{
+	
+	text-align: center;
+	background-color: #3D211E; 
+	color: white;
+	text-decoration: none;
+	font-size: 200%;
+	border-radius: 3px;
+
+
+}
+
+.booton a:hover{
+	background-color: #6C463B;
+}
+.booton a:active{
+	color: #897D7D;
+	background-color: white;	
+}
+.booton a:visited{
+	background-color: rgba(255,255,255,.9);
+	color: #3D211E;	
+}
+h3{
+	color: white;
+	font-size: 90%;
+}
+ */
 /*
  * Hide visually and from screen readers
  */
@@ -726,10 +846,87 @@ body {
 /* 
 
 ---------------------------------grid----------------------------- */
-.site-grid {
+.table {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr .5fr 1fr 1fr 1fr;
-  grid-gap: 2%;
-  grid-template-areas: "name name" "navigation navigation" "content next-to" "content next-to" "footy footy";
+  grid-template-columns: auto;
+  grid-template-rows: auto 500px;
+  /* 	grid-column-gap: 15%;
+  	grid-row-gap: 10%;  */
 }
+
+.top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  grid-area: 1/1/2/2;
+}
+
+.bootons-main {
+  grid-area: 2/1/3/2;
+  display: flex;
+  justify-content: space-around;
+  /* 	align-items:center; */
+  flex-flow: row wrap;
+}
+
+/* 
+
+body{
+	margin: 3%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+div{
+	grid-area: 1/2/4/3;
+	display: flex;
+	justify-content:center;
+	flex-flow: row wrap;
+}
+
+h1{
+
+}
+
+h2{
+	margin-top: -25%;
+}
+p{
+	margin-top: -25%;
+}
+
+
+#link1{
+	grid-area: 2/1/3/2;
+	text-align: center;
+
+}
+#link2{
+	grid-area: 2/2/3/3;
+	text-align: center;
+}
+#link3{
+	grid-area: 2/3/3/4;
+	text-align: center;
+}
+#link4{
+	grid-area: 3/1/4/2;
+	text-align: center;
+}
+#link5{
+	grid-area: 3/2/4/3;
+	text-align: center;
+}
+#link6{
+	grid-area: 3/3/4/4;
+	text-align: center;
+}
+#link7{
+	grid-area: 4/1/5/2;
+	text-align: center;
+}
+#link8{
+	grid-area: 4/2/5/3;
+	text-align: center;
+} */

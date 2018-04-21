@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>semantic markup with emmet</title>
+</head>
+<body>
+<!-- !+tab -->
+
+
+	<!-- general non-semantic design only  -->
+	<div class="containerclass">. <!-- .containclass+tab -->
+	<!-- cntrl+shift+t shows you the ending tag -->
+
+	<header> <!-- made with header>h1 enter -->
+		<h1>semantic markup</h1> 
+		<!-- logos can also go into header -->
+	</header>
+
+
+
+
+
+	
+	
+	<nav><!-- main internal navigation page one per page -->
+		<ul>
+			<li><a href="#">Link 1</a></li>
+			<li><a href="#">Link 2</a></li>
+			<li><a href="#">Link 3</a></li>
+			<li><a href="#">Link 4</a></li>
+			<li><a href="#">Link 5</a></li>
+		</ul>
+	</nav>
+<!-- 	nav>ul>li*18>a[#]{Link $} -->
+
+	<!-- figure tags for important info -->
+	<!-- figure>img[src="http://placehold.it/200x200"] -->
+	<figure><img src="http://placehold.it/200x200" alt=""></figure>
+
+
+
+
+	<!-- main is litterally the main content of the page, the point of the page -->
+	<!-- main>h2+p*2>lorem -->
+	<main>
+		<h2>THIS IS AWESOME I LOVE EMMIT</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quaerat natus quae eos voluptate veritatis soluta minus animi dolore ex harum esse ad vel, placeat aut odio, blanditiis ipsa assumenda?</p>
+		<p>Eum obcaecati rem tenetur repudiandae, doloremque nostrum! Ratione iure eos corporis cum laborum culpa consectetur delectus neque, hic quas ipsa numquam minus temporibus magni dicta non mollitia expedita modi quo.</p>
+	</main>
+
+
+	<!-- section groups things together semantically -->
+	<!-- section>h2+p*2>lorum -->
+	<section>
+		<h2></h2>
+		<p>
+			<lorum></lorum>
+		</p>
+		<p>
+			<lorum></lorum>
+		</p>
+	</section>
+
+<div>
+	
+		<!-- independent stand alone syndication -->
+		<!-- article>h2+p*4>lorem -->
+		<article>
+			<h2></h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas repellendus modi omnis qui veritatis voluptatum laborum, quod aliquam, optio hic corporis quibusdam, tempora libero ipsum quaerat aspernatur totam expedita blanditiis.</p>
+			<p>Magnam ratione eum soluta facilis, fugit magni tenetur eius cupiditate numquam distinctio provident. Quo ipsum error officia maiores eos repellat explicabo blanditiis, vero dolores aspernatur et dicta exercitationem. Earum, amet.</p>
+			<p>Autem quibusdam ut aliquam temporibus, voluptatum atque. Illum tempora vitae praesentium, temporibus rerum minima natus, sed laboriosam quod itaque nesciunt exercitationem optio eligendi voluptatem autem eveniet, est libero in. Dolore.</p>
+			<p>Esse, possimus, cumque. Doloremque saepe ducimus doloribus asperiores sapiente sunt ipsa consequuntur, fuga odio, distinctio at quos veniam eaque iure, qui quas fugiat! Libero fugiat magni facilis temporibus perferendis, provident.</p>
+		</article>
+	
+	
+		<!-- aside<h2+p*2>lorem -->
+		<!-- extra info for a section, it does not necessarily denote a sidebar, but those are dying anyways.  -->
+		<aside>
+			<h2></h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore quo blanditiis dignissimos, voluptates, repellat id enim incidunt rerum in eaque veritatis, unde praesentium quis ut laudantium ullam suscipit fuga consequuntur!</p>
+			<p>Voluptatibus, autem magni. Dignissimos aliquam similique sit tenetur omnis quia minima repellat soluta ullam facilis, vitae sint et ducimus excepturi tempora unde libero voluptas cupiditate ipsam optio accusamus accusantium sequi!</p>
+		</aside>
+</div>
+
+
+	<footer>
+		<address></address><!-- usually an email adress twitter, etc -->
+		<small>&copy; 2018</small><!-- this makes text smaller, but its depricated. but it now means small print, legal, etc. -->
+	</footer>
+
+
+
+
+	</div>
+	<div id="idsomething"></div>
+	<!-- this is a cool comment with option,cmd. slash -->
+	
+	<!-- always label divs with comments -->
+	<!-- also always label what is the end tag of something if things are heavely nested. -->
+	
+
+
+</body>
+</html>

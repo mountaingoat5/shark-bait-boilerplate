@@ -1,0 +1,133 @@
+.icon-sprite, .icon-al, .icon-arti, .icon-billi, .icon-cab, .icon-duke, .icon-ella, .icon-franky, .icon-laura, .icon-leon, .icon-norma {
+  background-image: url('../img/icon-se88ca08f68.png');
+  background-repeat: no-repeat;
+}
+
+.icon-al {
+  background-position: 0 -232px;
+}
+.icon-al:hover, .icon-al.al-hover {
+  background-position: 0 0;
+}
+
+.icon-arti {
+  background-position: 0 -697px;
+}
+.icon-arti:hover, .icon-arti.arti-hover {
+  background-position: 0 -465px;
+}
+
+.icon-billi {
+  background-position: 0 -1161px;
+}
+.icon-billi:hover, .icon-billi.billi-hover {
+  background-position: 0 -929px;
+}
+
+.icon-cab {
+  background-position: 0 -1625px;
+}
+.icon-cab:hover, .icon-cab.cab-hover {
+  background-position: 0 -1393px;
+}
+
+.icon-duke {
+  background-position: 0 -2093px;
+}
+.icon-duke:hover, .icon-duke.duke-hover {
+  background-position: 0 -1863px;
+}
+
+.icon-ella {
+  background-position: 0 -2564px;
+}
+.icon-ella:hover, .icon-ella.ella-hover {
+  background-position: 0 -2325px;
+}
+
+.icon-franky {
+  background-position: 0 -3028px;
+}
+.icon-franky:hover, .icon-franky.franky-hover {
+  background-position: 0 -2796px;
+}
+
+.icon-laura {
+  background-position: 0 -3495px;
+}
+.icon-laura:hover, .icon-laura.laura-hover {
+  background-position: 0 -3261px;
+}
+
+.icon-leon {
+  background-position: 0 -3959px;
+}
+.icon-leon:hover, .icon-leon.leon-hover {
+  background-position: 0 -3727px;
+}
+
+.icon-norma {
+  background-position: 0 -4425px;
+}
+.icon-norma:hover, .icon-norma.norma-hover {
+  background-position: 0 -4193px;
+}
+
+header {
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  margin-top: -250px;
+}
+header h1 {
+  font-size: 400%;
+}
+header p {
+  padding-right: 20%;
+  padding-left: 20%;
+  font-size: 150%;
+}
+
+body {
+  background-color: #FFE4E1;
+}
+
+nav {
+  text-align: left;
+  margin-left: -85px;
+}
+nav ul li a {
+  color: green;
+}
+nav ul li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+section {
+  text-align: center;
+  margin-top: 5%;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+  font-family: 'Lobster', cursive;
+  color: green;
+  text-decoration: none;
+  font-size: 200%;
+  padding-bottom: 3%;
+  padding-right: 3%;
+}
+li a {
+  display: flex;
+  justify-content: space-around;
+  /* display: inline-block; */
+  width: 245px;
+  height: 232px;
+}
+li a span {
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+}
