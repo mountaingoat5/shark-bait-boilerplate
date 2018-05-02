@@ -15,40 +15,240 @@
 /*  mix in from compass that makes verticle sprite sheet to 
  horixontal sheet */
 
-header, nav, aside, footer, section, main{
-	position:relative;//for grid to work
-	
-	&::after{
-		@include info;
-	}//&::after
 
-}// header, nav aside etc
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 
-
-
-
-
-header{
-	grid-area: name;
-
-}//header
-
-nav{
-	grid-area: navigation;
-}//nav
-
-aside{
-	grid-area: next-to;
-}//aside
-
-footer{
-	grid-area: footy;
-}//footer
+body{
+	background-color: #ADD8E6;
+}
 
 main{
-	grid-area: content;
+	perspective: 1px;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto; 
+}
 
-}//main
+header{
+	background-color: navy;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	h1{
+		color: white;
+		font-family: 'Amatic SC', cursive;
+		font-size: 300%;
+	}
+}
+
+.text{
+	background-color: navy;
+	text-align: center;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 200%;
+}
+
+
+
+
+/* -------------------paralax base-------------- */
+
+.para-base{
+    height: 100vh;
+	perspective: 1px;
+	overflow-x:hidden;
+	overflow-y: auto;
+
+/*     background: 50% 50%; */
+
+
+
+}
+.paralax-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 100vh 0;
+}
+
+/* ----------------------------section 1-------------------- */
+#text-01{
+	padding: 0;
+}
+
+#para01-01{
+	transform: translateZ(-12px) scale(13);
+    margin-left: 250px;
+    margin-bottom: 200px;
+}
+
+#para01-02{
+    transform: translateZ(-18px) scale(20);
+    margin-left: 1000px;
+    margin-bottom: -1500px;
+    bottom: 0;
+}
+
+#para01-03{
+    transform: translateZ(-26px) scale(27);
+    margin-left: 1300px;
+    margin-bottom: -1700px;
+}
+
+#para01-04{
+    transform: translateZ(-30px) scale(29);
+    margin-left: 200px;
+    margin-bottom: 2000px;
+}
+
+/* ---------------------------section2----------------------- */
+#parabase03{
+	z-index: -7px;
+}
+
+#para02-01{
+	transform:translateZ(-10px) scale(9);
+	margin-left: 5%; }
+#para02-02{
+	transform:translateZ(-8px) scale(7);
+	margin-top: 1500px;
+	margin-left: 880px; }
+#para02-03{
+	transform: translateZ(-6px) scale(5);
+    margin-left: -100px;
+    margin-top: -300px; }
+#para02-04{
+	transform:translateZ(-4px) scale(4.20);
+	margin-left: 70px;
+	margin-top: -200px; }
+
+#text-02{
+	margin-top: -100px;
+}
+
+/* -------------------------section 4 -------------------- */
+#parabase-04{
+	z-index: 15px;
+}
+
+#para03-01{
+	transform: translateZ(-20px) scale(16);
+    margin-left: 7500px;
+    margin-top: -5500px;
+}
+#para03-02{
+	transform: translateZ(-15px) scale(5.04);
+    margin-left: -2150px;
+    margin-top: 2900px;
+
+}
+#para03-03{
+	transform: translateZ(-13px) scale(4.4);
+    margin-left: -2100px;
+    margin-top: 2000px;
+}
+#para03-04{
+	transform: translateZ(-9px) scale(9.9);
+    margin-left: 115px;
+}
+
+#text-03{
+	margin-top: 100px;
+}
+
+
+/* -----------part 5-------------------- */
+
+#parabase05{
+	z-index: -4;
+}
+#para04-01{
+	transform: translateZ(-4px) scale(3);
+    margin-top: 100px;
+}
+
+#para04-03{
+	transform: translateZ(-3px) scale(4);
+    margin-left: 80px;
+    margin-top: 300px;
+}
+#para04-04{
+	transform: translateZ(-4px) scale(5);
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+#text-04{
+	margin-top: -100px;
+}
+
+/* ------------------part 6----------------------------- */
+
+#parabase06{
+	z-index: 10;
+}
+
+
+
+#para05-02{
+	transform: translateZ(-10px) scale(11.58);
+    margin-left: 93px;
+    margin-top: -800px;
+ }
+#para05-03{
+    transform: translateZ(-8px) scale(3);
+    margin-left: -2000px;
+    margin-top: 2000px;
+ }
+#para05-04{
+    transform: translateZ(-5px) scale(6);
+    margin-left: 700px;
+    margin-top: 1000px;
+ }
+#para05-01{
+    transform: translateZ(-11px) scale(12.59);
+    margin-left: 90px;
+    margin-top: 2000px;
+ } 
+
+ #text-05{
+ 	margin-top: -100px;
+ }
+
+/* ---------------------part 7------------------ */
+
+
+#parabase07{
+	z-index: 2;
+	
+}
+
+
+#para06-04{
+	transform: translateZ(-5px) scale(6);
+    margin-left: 70px;
+
+}
+#para06-03{
+	transform:translateZ(-4px) scale(5);
+	margin-top: 2500px;
+    margin-left: 70px;
+
+}
+#para06-02{
+	transform:translateZ(-2px) scale(2);
+
+}
+#para06-01{
+	transform:translateZ(-7px) scale(8);
+	    margin-left: 1000px;
+    margin-top: 2000px;
+
+}
 
 
 
@@ -56,4 +256,12 @@ main{
 
 
 
+/* 
+
+#para01-01{transform:translateZ(px) scale(); z-index: ; }
+#para01-02{transform:translateZ(px) scale(); z-index: ; }
+#para01-03{transform:translateZ(px) scale(); z-index: ; }
+#para01-04{transform:translateZ(px) scale(); z-index: ; } 
+
+ */
 
